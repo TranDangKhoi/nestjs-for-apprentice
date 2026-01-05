@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Param, Post, Put, Query } from "@nestjs/common";
 import { PostsService } from "./posts.service";
 
 @Controller("posts")
@@ -13,6 +13,11 @@ export class PostsController {
   @Get(":id")
   getPostById(@Param("id") id: string) {
     return this.postsService.getPostById(id);
+  }
+
+  @Get("/search")
+  searchPost(@Query("title") title: string) {
+    return this.postsService.searchPost(title);
   }
 
   @Put(":id")

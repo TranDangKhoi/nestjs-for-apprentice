@@ -10,6 +10,10 @@ export class PostsService {
     return "Post with id: " + id;
   }
 
+  searchPost(title: string) {
+    return "Search post with title: " + title;
+  }
+
   createPost(post: { title: string }) {
     return "Post created with title: " + post.title;
   }
