@@ -1,8 +1,40 @@
+# Vietnamese version
+
+Oki, tiếng Việt trước nhóe
+
+## Tổng quan về NestJS
+
+Có vẻ như NestJS được xây dựng trên nền tảng Express (mặc định), hoặc bạn có thể chuyển sang Fastify nếu muốn. Nhưng mà chung quy lại thì, cả 2 Express và Fastify đều có đặc điểm hiệu năng khác nhau và có những pattern riêng mà bạn nên tuân theo.
+
+Nó là sự kết hợp của OOP (Lập trình hướng đối tượng), FP (Lập trình hàm) và cả FRP (Lập trình phản ứng hàm, theo như mình được biết) — nói chung là một mô hình lai.
+
+Đọc thêm thằng [nestjs.md](nestjs.md) để biết thêm chi tiết.
+
+### Hiệu năng
+
+Vì framework này được xây dựng trên Express, nên nó không nhanh bằng Fastify hoặc Express thuần - Hiển nhiên rồi, vì nó là Express kẹp thêm DLCs =))). Tuy vậy, nó vẫn đủ nhanh cho phần lớn các ứng dụng.
+
+### Có khó học không
+
+Có, cũng hơi khó nếu bạn vừa du học từ Express sang. Có rất nhiều khái niệm mới cần tiếp thu, nhưng mà cứ chill — bạn sẽ thấy công sức bỏ ra là hoàn toàn xứng đáng.
+
+Ngược lại, nếu bạn đã quen với Angular hoặc Spring và có nền tảng NodeJS vững, thì việc học NestJS sẽ nhẹ nhàng.
+
+À, và có một điều cực kỳ rõ ràng cần phải nói: framework này được sinh ra để phục vụ các ứng dụng quy mô lớn nên mấy apps nhỏ thì nên xem xét sử dụng cái khác - Fastify chẳng hạn.
+
+---
+
+# English version:
+
+Aight, English version here we go
+
 ## NestJS overview
 
 So apparently, this NestJS thing is built on top of Express (by default) or you can switch it to Fastify if you prefer, each of them has different performance characteristics and different patterns that you should follow.
 
 It's a combination of OOP (Object-Oriented Programming), FP (Functional Programming) and also FRP (Functional Reactive Programming, as I've heard), it's a bit of a hybrid.
+
+Please read the [nestjs.md](nestjs.md) file for more details.
 
 ### Performance
 
