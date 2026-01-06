@@ -26,7 +26,7 @@ export class PostsController {
   }
 
   @Post()
-  createPost(@Body() body: { title: string }) {
+  createPost(@Body() body: { title: string; content: string; authorId: string }) {
     return this.postsService.createPost(body);
   }
 
