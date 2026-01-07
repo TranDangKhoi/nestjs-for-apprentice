@@ -4,7 +4,7 @@ Oki, tiếng Việt trước nhóe
 
 ## Tổng quan về NestJS
 
-Có vẻ như NestJS được xây dựng trên nền tảng Express (mặc định), hoặc bạn có thể chuyển sang Fastify nếu muốn. Nhưng mà chung quy lại thì, cả 2 Express và Fastify đều có đặc điểm hiệu năng khác nhau và có những pattern riêng mà bạn nên tuân theo.
+Có vẻ như NestJS được xây dựng dựa trên Express (mặc định), hoặc bạn có thể chuyển sang Fastify nếu muốn. Nhưng mà chung quy lại thì, cả 2 Express và Fastify đều có đặc điểm hiệu năng khác nhau và có những pattern riêng mà bạn nên tuân theo.
 
 Nó là sự kết hợp của OOP (Lập trình hướng đối tượng), FP (Lập trình hàm) và cả FRP (Lập trình phản ứng hàm, theo như mình được biết) — nói chung là một mô hình lai.
 
